@@ -67,6 +67,8 @@
     - lodash 4.17.21
 - core-js 3.23.4
 - element-plus 2.2.9
+- openvidu
+- faceapi
 
 ## 서비스 아키텍처
 ![image](https://user-images.githubusercontent.com/97645988/195662625-ecad268e-8126-443e-912c-4dacbe113047.png)
