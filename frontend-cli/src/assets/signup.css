@@ -1,0 +1,80 @@
+
+* {
+  /* font-family: 'Galmuri9'; */
+  font-family: 'Press Start 2P', 'Galmuri9';
+}
+/* signup input 틀의 size and margin */
+.signup_input {
+  /* size */
+  width: 350px;
+  height: 100%;
+  /* margin */
+  margin-top: 20px;
+  /* font */
+  font-size: 6px;
+}
+
+/* 기본 input 설정 */
+.signup_input input{
+  /* padding and margin */
+  padding: 1em 1em;
+  padding-bottom: 2px;
+  margin-bottom: 20px;
+  /* size */
+  width: 100%;
+  height: 50px;
+  background : transparent;
+  /* font */
+  color: white;
+  font-size: 12px;
+  ime-mode: disabled;
+  /* border */
+  border: 0;
+  border-bottom: 0.7px solid #00BD9D;
+}
+/* input focused 설정 */
+.signup_input input:focus {
+  /* padding */
+  border: 0;
+  /* outline */
+  padding-bottom: 1em;
+  border-radius: 7px;
+  box-shadow: 0 0 0 0.7px #00BD9D;
+  outline: none;
+  /* font */
+  color: white;
+}
+.signup_input button {
+  /* size */
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  background-color: #00BD9D;
+  /* border */
+  border: 0;
+  border-radius: 10px;
+  /* font */
+  color: white;
+  font-size: 14px;
+  /* others */
+  cursor: pointer;
+}
+.signup_input button:focus {
+  background-color: #036B5A;
+  box-shadow: 0 0 0 1.5px #00BD9D;
+}
+
+.input-file-button {
+  /* margin & padding */
+  padding: 10px 25px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  /* background & border */
+  background-color: #036B5A;
+  border-radius: 4px;
+  /* font */
+  font-size: 10px;
+  color: white;
+  /* others */
+  cursor: pointer;
+}
